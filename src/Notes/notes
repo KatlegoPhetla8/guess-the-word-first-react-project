@@ -1,0 +1,24 @@
+So I am building a guess the word program using a API and what I have learnt so far in coding and react
+
+
+What it needs to have or consist of:
+DONE!!! 1: User gets 10 tries to guess the word. The word length should be shown on screen as just lines eg _ _ _ _
+
+DONE!!! 2: When a letter is correct it should apear as the blank out letter and also show below that it has been used and when its wrong as well.
+
+DONE!!! 3: Should be an input were user can enter letter and button where user can submit answer, or keyboard on screen that shows letters.
+
+DONE!!!4: With UI background is white and when the word is correct, bckgrnd is green and if wrong it's red.
+
+DONE!!!5: If word is correct can show congratulations and if wrong show the actual word and sorry, you lost.
+
+DONE!!!6: After the game there should be a button that says play again.
+
+
+
+ DONE!!! API: Need to get a word randomiser api from a dictionary or something that randomly generated.
+
+https://random-word-api.herokuapp.com/home API DONE !!!
+
+
+NB!!! REMOVING GUESS LETTER WHEN REFRESH, OTHERWISE PROJECT IS DONE.

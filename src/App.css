@@ -1,38 +1,148 @@
 .App {
   text-align: center;
+  background-color: #0a0f1a;
+  padding-bottom: 50rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1, h3{
+  color:rgba(182, 7, 235, 0.753);
+  font-size:40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.keyboard{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(90px, 1fr));
+  width:38%;
+  margin:auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.keyboard button {
+  color:rgba(255, 255, 255, 0.753);
+  border-color:black;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:rgba(182, 7, 235, 0.753);
+  height:60px;
+  width:80px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size:2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.keyboard button:hover{
+  color:white;
+  background-color: rgba(223, 159, 243, 0.753);;
+  cursor:pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.span-letter{
+  width:fit-content;
+  height:fit-content;
+  background-color:purple;
+  color:purple;
+  font-size:40px;
+  align-items: center;
+  margin-right:1rem;
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.display-letter{
+  font-size:5rem;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:1rem;
+  margin-top:1rem;
+}
+
+.game-over {
+  background-color: rgb(43, 43, 43);
+  color:red;
+  font-size:30px;
+  padding-bottom:50rem;
+}
+
+.game-over h1{
+  color:red;
+}
+
+.game-over button{
+  font-size:20px;
+  color:whitesmoke;
+  background-color: red;
+  font-weight:bold;
+  border:1px;
+  padding: 1rem 1rem 1rem 1rem;
+  cursor: pointer;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-over button:hover{
+  color:red;
+  background-color: whitesmoke;
+}
+
+.game-won{
+  color:white;
+  background-color:green;
+  font-size:30px;
+  padding-bottom:50rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-won h1{
+  color:white;
+}
+
+.game-won button{
+  font-size:20px;
+  color:green;
+  background-color: white;
+  font-weight:bold;
+  border:1px;
+  padding: 1rem 1rem 1rem 1rem;
+  cursor: pointer;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.game-won button:hover{
+  color:whitesmoke;
+  background-color: rgb(43, 70, 1);
+}
+
+
+.letter-used-div{
+  display:flex;
+  font-size: 3rem;
+  font-weight:700;
+  color:red;
+  justify-content: center;
+}
+
+.game-display button{
+  margin-bottom:2rem;
+  margin-left:1rem;
+  background-color: rgba(182, 7, 235, 0.753);
+  padding: 1rem 1rem 1rem 1rem;
+  color:rgba(255, 255, 255, 0.753);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+  border:none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.game-display button:hover{
+  color: rgba(182, 7, 235, 0.753);
+  background-color: rgba(255, 255, 255, 0.753);
+}
+
+.letter-used-div p{
+  padding-right:1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
